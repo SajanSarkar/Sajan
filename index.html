@@ -4,24 +4,43 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sajan Kumar Shrestha</title>
-
-    <style>
-
-        body{
-            margin: 0;
-            background-image: url('https://media.wired.co.uk/photos/606da2ab938ecee6e930e8cb/16:9/w_2688,h_1512,c_limit/black-hole.jpg');
-            background-repeat: no-repeat;
-        }
-        .flex {
-            display: flex;
-            justify-content: center;
-            color: white;
-        }
-    </style>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
 </head>
-<body>
-    <div class="flex">
-        I'm Sajan Kumar Shrestha
+<body class="bg-gradient-to-r from-blue-500 to-green-500 p-8">
+    <div class="container mx-auto py-8">
+        <h1 class="text-4xl font-bold text-center mb-8">Sajan Kumar Shrestha</h1>
+        
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">About Me</h2>
+            <p class="text-gray-700">Hello I am Sajan Kumar Shrestha.</p>
+        </section>
+        
+        <section class="mb-8">
+            <h2 class="text-2xl font-bold mb-4">Portfolio</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div class="bg-white p-4 shadow-md rounded-md">
+                    <h3 class="text-lg font-semibold">Project 1</h3>
+                    <p class="text-gray-700">This Website</p>
+                </div>
+                <div class="bg-white p-4 shadow-md rounded-md">
+                    <h3 class="text-lg font-semibold">Project 2</h3>
+                    <p class="text-gray-700">DS Billing system</p>
+                </div>
+            </div>
+        </section>
+        
+        <section>
+            <h2 class="text-2xl font-bold mb-4">Contact Me</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <p class="text-gray-700"><i class="fas fa-envelope mr-2"></i>Email: sajan@example.com</p>
+                </div>
+                <div>
+                    <p class="text-gray-700"><i class="fas fa-phone mr-2"></i>Phone: +1234567890</p>
+                </div>
+            </div>
+        </section>
     </div>
 </body>
 </html>
